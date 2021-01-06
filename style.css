@@ -17,15 +17,17 @@ body{
     list-style:none;
     font-size:15px;
     font-weight: 600;
-    background-color: rgb(247, 159, 127);
+    background-color:rgb(170, 247, 247);
     float:right;
     margin-bottom: 40px;
+    
     
 }
   
 #menu_list li {
     padding:10px;
     float: right;
+    margin-right: 20px;
         
         
 }
@@ -189,8 +191,8 @@ section{
 }
 
 footer{
-    background-color:rgb(10, 8, 8);
-    height:450px;
+    background-color:rgb(34, 31, 31);
+    height:420px;
     margin-top: -400px;
     
 }
@@ -219,13 +221,13 @@ footer{
 .about_area ul li{
     margin:5px;
     font-size:20px;
-    color: rgb(205, 247, 247);
+    color: white;
 }
 
 .copyright_area{
     text-align: center;
     font-size: 14px;
     line-height: 10px;
-    color: rgb(85, 76, 76);
+    color: rgb(97, 93, 93);
     
 }

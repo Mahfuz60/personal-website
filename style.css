@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap');
 
+*{
+    margin:0px;
+    padding:0px;
+}
 
 body{
     font-family: 'Lora', serif;
@@ -9,11 +13,11 @@ body{
 }
 .top_bar_menu ol {
     width:100%;
-    height:40px;
+    height:50px;
     list-style:none;
     font-size:15px;
     font-weight: 600;
-    background-color:rgb(4, 245, 165);
+    background-color: rgb(247, 159, 127);
     float:right;
     margin-bottom: 40px;
     
@@ -28,13 +32,13 @@ body{
 
 h1{
     font-size:40px;
-    color:rgb(0, 0, 10)
+    color:rgb(16, 16, 88);
     
 }
 
 h2{
     font-size: 35px;
-    color:rgb(0, 0, 10);
+    color:rgb(16, 16, 88);
 }
 h4{
     font-size:32px;
@@ -43,8 +47,8 @@ h4{
 }
 p {
     color: dimgray;
-    margin-bottom: 29px;
-    font-size: 16px;
+    margin-bottom: 40px;
+    font-size: 18px;
 }
 .name_highlight{
     color: tomato;
@@ -59,15 +63,19 @@ p {
     margin-top:50px;
     
 }
+.half_width h1{
+    margin-bottom:30px;
+}
+
 
 .half_width img{
-    width:100%;
+    width:80%;
     margin-right:30px;
 }
 
 section{
     height:500px;
-    padding-bottom:150px;
+    padding-bottom:100px;
     background-color:rgb(254, 255, 255);
     
     
@@ -82,30 +90,32 @@ section{
     font-weight:700;
     background-image:linear-gradient(45deg, rgb(146, 68, 37), rgb(252, 50, 15));
     font-size:25px;
+    margin-bottom: 10px;
     
 }
 
 #project_works{
     height:600px;
-    background-color:rgb(241, 240, 237)
+    background-color:rgb(226, 223, 222);
+    
+    
 }
-#project_works h2{
-    margin-bottom:0px;
-}
+
 #work_highlight{
     text-align: center;
     padding:10px;
+    text-transform: uppercase;
 }
 
 #work_highlight span{
-    color: tomato;
+    color: rgb(243, 46, 11);
 }
 
 .project_area{
-    width:23%;
+    width:25%;
     height:80%;
     padding:2%;
-    margin:3%;
+    margin:2%;
     border-radius:15px;
     background-color: white;
     float: left;
@@ -116,7 +126,104 @@ section{
 .project_area img{
     width:100%;
     
+    
+}
+.project_area h4{
+    margin-bottom: 10px;
+}
+
+.work_area{
+    height:200px;
+    background-image: url(images/pic3.png);
+    margin-left:30px;
+    background-size: 65%;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+
+.single_area h1{
+    float: left;
+    margin-top: 125px;
+    margin-left:280px;
+    color: rgb(248, 244, 244);
+    text-transform: uppercase;
+
+}
+
+.single_area a{
+    float:right;
+    text-decoration: none;
+    margin-right: 290px;
+    margin-top:132px;
+    padding:15px 22px;
+    border-radius: 5px;
+    background-image:linear-gradient(45deg, rgb(146, 68, 37), rgb(252, 50, 15));
+    color: rgb(250, 249, 249);
+    font-weight: 600;
+    
+
 }
 
 
 
+.contact_area{
+    margin-left:5%;
+    margin-top:30px;
+    text-align: center;
+}
+.contact_area h3{
+    text-transform: uppercase;
+    color: rgb(112, 110, 110);
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.contact_area img{
+    width:45px;
+    height:45px;
+    padding:10px;
+    margin-top: 10px;
+}
+
+footer{
+    background-color:rgb(10, 8, 8);
+    height:450px;
+    margin-top: -400px;
+    
+}
+
+
+.about_area{
+    width:25%;
+    float: left;
+    padding:20px 55px;
+    margin-bottom: 20px;
+    
+    
+}
+.about_area:last-child{
+    margin-left:5px;
+}
+.about_area h2{
+    margin-top: 50px;
+    color:orangered;
+    text-transform: uppercase;
+}
+.about_area ul{
+    list-style:none;
+    
+}
+.about_area ul li{
+    margin:5px;
+    font-size:20px;
+    color: rgb(205, 247, 247);
+}
+
+.copyright_area{
+    text-align: center;
+    font-size: 14px;
+    line-height: 10px;
+    color: rgb(85, 76, 76);
+    
+}
